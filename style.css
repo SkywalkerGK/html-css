@@ -2,6 +2,8 @@ html,body{
     background-color: lightgray;
     margin: 0;
     padding: 0;
+    font-family: 'Athiti', sans-serif;
+    font-family: 'IBM Plex Sans Thai', sans-serif;
 }
 
 .top-header {
@@ -20,6 +22,18 @@ html,body{
 .brand{
     font-size: 18px;
     font-weight: 600;
+}
+
+.title{
+    color: mediumblue;
+    background-color: rgb(152, 219, 255);
+    border: 2px solid rgb(55, 55, 55);
+    box-shadow: 4px 4px 8px 4px rgb(143, 245, 143);
+    padding-left: 20px;
+}
+
+.text{
+    padding-left: 20px;
 }
 
 .main-content{
@@ -45,6 +59,12 @@ html,body{
     text-decoration: none;
     margin-bottom: 10px;
     display: inline-block;
+}
+
+.buttom-footer{
+    background-color: lightgray;
+    padding: 20px;
+    text-align: center;
 }
 
 
