@@ -8,6 +8,11 @@ html,body{
 
 .top-header {
     background-color: lightblue;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
 }
 
 .menu-item{
@@ -47,8 +52,32 @@ html,body{
     margin: 30px;
 }
 
+.box-image{
+    position: relative;
+}
+
 .image {
     width: 100%;
+}
+
+.live{
+    color: white;
+    background-color: red;
+    font-size: 20px;
+    padding: 8px 10px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.views{
+    color: white;
+    background-color: black;
+    font-size: 20px;
+    padding: 8px 10px;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
 }
 
 .button{
