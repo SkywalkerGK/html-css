@@ -1,8 +1,42 @@
-.box{
-    background-color: skyblue;
-    padding: 20px;
-    margin-bottom: 20px;
+html,body{
+    background-color: lightgray;
+    margin: 0;
+    padding: 0;
 }
+
+.box{
+    background-color: white;
+    padding: 20px;
+    margin: 30px;
+}
+
+.image {
+    width: 100%;
+}
+
+.button{
+    color: black;
+    background-color: darkseagreen;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 10px;
+    display: inline-block;
+    width: 8%;
+    display: inline-block;
+}
+
+.button2{
+    color: black;
+    background-color: darkseagreen;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 10px;
+    display: inline-block;
+    width: 8%;
+}
+
 
 .title{
     font-size: 60px;
@@ -12,13 +46,4 @@
     font-size: 30px;
 }
 
-.button{
-    color: white;
-    background-color: darkseagreen;
-    padding: 15px;
-    text-align: center;
-    text-decoration: none;
-    margin-bottom: 10px;
-    display: inline-block;
-    width: 8%;
-}
+
