@@ -4,6 +4,11 @@ html,body{
     padding: 0;
 }
 
+.main-content{
+    max-width: 700px;
+    margin: auto;
+}
+
 .box{
     background-color: white;
     padding: 20px;
@@ -17,12 +22,10 @@ html,body{
 .button{
     color: black;
     background-color: darkseagreen;
-    padding: 15px;
+    padding: 10px;
     text-align: center;
     text-decoration: none;
     margin-bottom: 10px;
-    display: inline-block;
-    width: 8%;
     display: inline-block;
 }
 
@@ -37,13 +40,5 @@ html,body{
     width: 8%;
 }
 
-
-.title{
-    font-size: 60px;
-}
-
-.text{
-    font-size: 30px;
-}
 
 
